@@ -1,0 +1,20 @@
+{
+    "extensions": {
+        "recommendations": [
+            "esbenp.prettier-vscode" // Prettier - Code formatter (enforces consistent style by parsing code and re-printing)
+        ]
+    },
+    "folders": [{ "path": "." }],
+    "settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.rulers": [80, 120], // add vertical rulers at 80 and 120 characters
+        "editor.tabSize": 4, // agrees with the Prettier `tabWidth: 4` setting
+        "eslint.validate": ["javascript"],
+        "prettier.endOfLine": "lf",
+        "prettier.printWidth": 110,
+        "prettier.singleQuote": true,
+        "prettier.tabWidth": 4,
+        "prettier.useTabs": false
+    }
+}
