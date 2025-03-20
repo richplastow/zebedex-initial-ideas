@@ -7,6 +7,12 @@
 
         <!-- Include Zebedex -->
         <script data-zbdx="core" src="../../src/zbdx-es5-core.mjs"></script>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                document.querySelector('#zbdx-example-output').textContent = 'Hello Zebedex';
+            });
+        </script>
     </head>
     <body>
         <h1>01: Minimal Zebedex Example</h1>

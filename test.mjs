@@ -4,6 +4,8 @@
  * node test.mjs
  */
 
-import './docs/src/zbdx-es5-core.test.mjs';
+import testZbdxEs5Core from './test/zbdx-es5-core.test.mjs';
 
-console.log('\u2705 All tests passed');
+testZbdxEs5Core();
+
+console.log('\n\u2705 All tests passed\n');
