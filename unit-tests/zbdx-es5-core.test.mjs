@@ -1,7 +1,7 @@
 /** #### Tests `ZDBX_ES5_CORE` source and minified code
  *
  * @example
- * node test/zbdx-es5-core.test.mjs
+ * node unit-tests/zbdx-es5-core.test.mjs
  */
 
 import { deepEqual as eq, throws } from 'node:assert';
@@ -54,7 +54,7 @@ const testNamespace = (code, fmt) => {
 
 // Runs all tests.
 export default function test() {
-    console.log(`\n# ${repoPath}test/${brightFilename}`);
+    console.log(`\n# ${repoPath}unit-test/${brightFilename}`);
     testNamespace(min, fmtMin);
     testNamespace(src, fmtSrc);
 }

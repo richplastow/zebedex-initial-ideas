@@ -4,7 +4,7 @@
  * node test.mjs
  */
 
-import testZbdxEs5Core from './test/zbdx-es5-core.test.mjs';
+import testZbdxEs5Core from './unit-tests/zbdx-es5-core.test.mjs';
 
 testZbdxEs5Core();
 

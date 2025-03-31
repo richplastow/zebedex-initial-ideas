@@ -4,7 +4,7 @@
 
 -   Version: 0.0.0
 -   Created: 19th March 2025
--   Updated: 19th March 2025
+-   Updated: 31st March 2025
 -   Author: Rich Plastow
 -   License: MIT
 -   Repo: <https://github.com/richplastow/zebedex-initial-ideas>
@@ -51,3 +51,14 @@ the 'Prettier - Code formatter' (esbenp.prettier-vscode) extension.
 If that's not working, it may be because you opened the project folder with
 `code zebedex-initial-ideas/`, or with `cd zebedex-initial-ideas/` followed by
 `code .` - in that case, open the project workspace instead.
+
+## Run the unit tests
+
+```bash
+node test.mjs
+# /Users/<USERNAME>/<DIR>/zebedex-initial-ideas/unit-test/zbdx-es5-core.test.mjs
+# Testing the ZDBX_ES5_CORE namespace  (min)
+# Testing the ZDBX_ES5_CORE namespace  (src)
+# ...
+# ✅ All tests passed
+```
